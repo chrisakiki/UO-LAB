@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T21:05:36.333Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="uTecZzpVKWwdZLo-yDIN" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T21:16:47.499Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="pdEhqhvotSosqM1XQpD1" version="22.1.18" type="github">
   <diagram name="Page-1" id="55slGVnWkIRkAtyEGwrG">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="x8eyKuJa9VGyMywJPDEX-1" value="" style="shape=mxgraph.pid.pumps.centrifugal_pump_1;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="70" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="x8eyKuJa9VGyMywJPDEX-2" value="" style="shape=mxgraph.pid.heat_exchangers.plate_and_frame_heat_exchanger;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="140" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="x8eyKuJa9VGyMywJPDEX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="x8eyKuJa9VGyMywJPDEX-4" target="x8eyKuJa9VGyMywJPDEX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x8eyKuJa9VGyMywJPDEX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="x8eyKuJa9VGyMywJPDEX-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8eyKuJa9VGyMywJPDEX-4" value="" style="shape=mxgraph.pid.vessels.tank;html=1;pointerEvents=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;dashed=0;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="135" y="10" width="40" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="x8eyKuJa9VGyMywJPDEX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x8eyKuJa9VGyMywJPDEX-1" target="x8eyKuJa9VGyMywJPDEX-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="147" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x8eyKuJa9VGyMywJPDEX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x8eyKuJa9VGyMywJPDEX-2" target="x8eyKuJa9VGyMywJPDEX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
