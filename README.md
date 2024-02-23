@@ -4,7 +4,7 @@ $\underline{01/10/2023}$
 
 * We started by creating a flow diagram of the process we are designing: 
 
-<img width="547" alt="image" src="https://github.com/chrisakiki/UO-LAB/blob/main/Screenshot%202024-02-21%20165301.png">
+<img width="547" alt="image" src="https://github.com/chrisakiki/UO-LAB/blob/main/Screenshot%202024-02-23%20111017.png">
 
 
 * We took a tour of the lab and looked and the equpment we will be using for our project
